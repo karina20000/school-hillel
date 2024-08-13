@@ -10,5 +10,5 @@ def consists_of_numbers(lst: list) -> bool:
 
 
 def prints_line_to_console() -> None:
-    """function that outputs a stream to the console and returns nothing"""
+    """function that outputs  a stream to the console and returns nothing"""
     print("*' * 80")
