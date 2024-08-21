@@ -6,7 +6,7 @@ def test_remove_empty_string():
     assert remove_spaces("") == ""
 
 
-def test_remove_spaces_only_spaces():
+def test_remove_spaces():
     assert remove_spaces("     ") == ""
 
 
