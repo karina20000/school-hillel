@@ -31,13 +31,17 @@ class Car(BaseVehicle):
             self.price = 0
 
 
-car1 = Car("Mercedes-Benz S-Class", 2022, 15_000_000)
-car2 = Car("Toyota Corolla", 2020, 1_500_000)
+car1 = Car("Mercedes-Benz S-Class", 2022, 15_000000)
+car2 = Car("Toyota Corolla", 2020, 1_500000)
 
 print(car1)
 print(car1.status)
 
 car1.drive(100)
 print(car1)
+
 print(car2)
 print(car2.status)
+
+car2.drive(500)
+print(car2)
